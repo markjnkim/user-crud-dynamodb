@@ -5,7 +5,7 @@ const docClient = new AWS.DynamoDB.DocumentClient();
 
 const save = () => {
 	const input = {
-		"email_id": "another-example@gmail.com",
+		"email_id": "example@gmail.com",
 		"created_by": "clientUser",
 		"created_on": new Date().toString(),
 		"updated_by": "clientUser",
